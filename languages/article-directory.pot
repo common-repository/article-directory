@@ -1,0 +1,560 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Article Directory Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-01-04 14:52+0300\n"
+"PO-Revision-Date: 2011-01-04 14:52+0300\n"
+"Last-Translator: Dimoz\n"
+"Language-Team: Dimox <http://dimox.name>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: article-directory.php:34
+msgid "Displays the structured list of categories (like in article directory), which can be easily customized with CSS. Also allows authors to publish articles and change their profile bypassing the admin interface. See the demo at <a href=\"http://articlesss.com/demo/\">articlesss.com</a>. <strong>Attention!</strong> If you deactivate the plugin its settings will be removed from the database."
+msgstr ""
+
+#: article-directory.php:170
+#, php-format
+msgid "View all posts filed under %s"
+msgstr ""
+
+#: article-directory.php:258
+#: article-directory.php:274
+msgid "No categories"
+msgstr ""
+
+#: article-directory.php:324
+msgid "Attention"
+msgstr ""
+
+#: article-directory.php:324
+msgid "The option \"<em><strong>ID of author panel page</strong></em>\" must be filled obligatory. Otherwise, the authors are unable to add articles."
+msgstr ""
+
+#: article-directory.php:333
+msgid "Article Directory Options"
+msgstr ""
+
+#: article-directory.php:341
+#: article-directory.php:694
+msgid "Update Options"
+msgstr ""
+
+#: article-directory.php:345
+msgid "Categories List Options"
+msgstr ""
+
+#: article-directory.php:352
+msgid "This options is only for the list of categories, which displays on the home page (or another page, where you have inserted the <code>article_directory()</code> function)."
+msgstr ""
+
+#: article-directory.php:356
+msgid "The number of columns for parent categories list"
+msgstr ""
+
+#: article-directory.php:364
+msgid "Sort the parent categories list"
+msgstr ""
+
+#: article-directory.php:367
+msgid "By name"
+msgstr ""
+
+#: article-directory.php:368
+msgid "By your choice"
+msgstr ""
+
+#: article-directory.php:371
+msgid "For sorting by your choice you need to install <a href=\"http://wordpress.org/extend/plugins/my-category-order/\">My Category Order</a> plugin."
+msgstr ""
+
+#: article-directory.php:375
+msgid "Sort direction of parent categories"
+msgstr ""
+
+#: article-directory.php:378
+msgid "From top to down"
+msgstr ""
+
+#: article-directory.php:379
+msgid "From left to right"
+msgstr ""
+
+#: article-directory.php:382
+msgid "At sorting \"From left to right\" the list is built more rationally."
+msgstr ""
+
+#: article-directory.php:386
+msgid "Show the number of articles in parent categories"
+msgstr ""
+
+#: article-directory.php:389
+#: article-directory.php:400
+#: article-directory.php:411
+#: article-directory.php:426
+#: article-directory.php:437
+#: article-directory.php:456
+#: article-directory.php:467
+#: article-directory.php:478
+#: article-directory.php:580
+#: article-directory.php:611
+#: article-directory.php:622
+#: article-directory.php:633
+#: article-directory.php:670
+#: article-directory.php:681
+msgid "Yes"
+msgstr ""
+
+#: article-directory.php:390
+#: article-directory.php:401
+#: article-directory.php:412
+#: article-directory.php:427
+#: article-directory.php:438
+#: article-directory.php:457
+#: article-directory.php:468
+#: article-directory.php:479
+#: article-directory.php:581
+#: article-directory.php:612
+#: article-directory.php:623
+#: article-directory.php:634
+#: article-directory.php:671
+#: article-directory.php:682
+msgid "No"
+msgstr ""
+
+#: article-directory.php:397
+msgid "Show description in the title of parent categories"
+msgstr ""
+
+#: article-directory.php:408
+msgid "Show the \"No categories\", if category don't contain subcategories"
+msgstr ""
+
+#: article-directory.php:423
+msgid "Show the child categories"
+msgstr ""
+
+#: article-directory.php:434
+msgid "Show the number of articles in child categories"
+msgstr ""
+
+#: article-directory.php:445
+msgid "The number of child categories to show"
+msgstr ""
+
+#: article-directory.php:449
+msgid "<code>0</code> - all child categories will be displayed. If the number other than zero, level 3 child categories not shown.<br /> Specify <code>99</code>, if you not want to show subcategories of 3rd and above level."
+msgstr ""
+
+#: article-directory.php:453
+msgid "Show description in the title of child categories"
+msgstr ""
+
+#: article-directory.php:464
+msgid "Use hierarchy for child categories"
+msgstr ""
+
+#: article-directory.php:475
+msgid "Hide empty categories"
+msgstr ""
+
+#: article-directory.php:490
+msgid "Comma separated IDs of categories, which should be excluded"
+msgstr ""
+
+#: article-directory.php:494
+msgid "Еxample: <code>1,3,7</code>. <code>0</code> - all categories will be displayed."
+msgstr ""
+
+#: article-directory.php:505
+msgid "\"Submit Article\" page options"
+msgstr ""
+
+#: article-directory.php:512
+msgid "Interface for authors"
+msgstr ""
+
+#: article-directory.php:515
+msgid "WordPress admin area"
+msgstr ""
+
+#: article-directory.php:516
+msgid "Author panel"
+msgstr ""
+
+#: article-directory.php:537
+msgid "The following options are works only if you have selected the interface \"Author panel\"."
+msgstr ""
+
+#: article-directory.php:542
+msgid "ID of author panel page"
+msgstr ""
+
+#: article-directory.php:546
+msgid "<strong>Mandatory option.</strong> More about it read in the instructions for installing the plugin."
+msgstr ""
+
+#: article-directory.php:546
+msgid "<a href=\"http://articlesss.com/article-directory-wordpress-plugin/#faq5\" target=\"_blank\">How to find this ID.</a>"
+msgstr ""
+
+#: article-directory.php:550
+msgid "Assign the following status to submitted article"
+msgstr ""
+
+#: article-directory.php:553
+msgid "Published"
+msgstr ""
+
+#: article-directory.php:554
+msgid "Pending Review"
+msgstr ""
+
+#: article-directory.php:561
+msgid "The minimum number of characters allowed in article"
+msgstr ""
+
+#: article-directory.php:569
+msgid "The maximum number of links allowed in article"
+msgstr ""
+
+#: article-directory.php:577
+msgid "Show text editor"
+msgstr ""
+
+#: article-directory.php:597
+msgid "Default text editor"
+msgstr ""
+
+#: article-directory.php:600
+msgid "HTML editor"
+msgstr ""
+
+#: article-directory.php:601
+msgid "Visual editor"
+msgstr ""
+
+#: article-directory.php:608
+msgid "Allow to choose only one category"
+msgstr ""
+
+#: article-directory.php:615
+msgid "Recommended to publish an article in only one category for the prevention of duplicate content. This option would avoid the publication in more than one category."
+msgstr ""
+
+#: article-directory.php:619
+msgid "Show list of tags"
+msgstr ""
+
+#: article-directory.php:630
+msgid "Allow to add new tags"
+msgstr ""
+
+#: article-directory.php:641
+#: author-panel.php:252
+msgid "Terms of article publication"
+msgstr ""
+
+#: article-directory.php:646
+msgid "The terms appear before the article submission form. You can use html tags for text formatting, for example, <code>&lt;p&gt;, &lt;ul&gt;, &lt;strong&gt;, &lt;a&gt;</code>. Leave this field blank, if you don't want to show the terms."
+msgstr ""
+
+#: article-directory.php:660
+msgid "Other Options"
+msgstr ""
+
+#: article-directory.php:667
+msgid "Exclude the child categories articles from the parent categories pages"
+msgstr ""
+
+#: article-directory.php:678
+msgid "Show article source code"
+msgstr ""
+
+#: article-directory.php:685
+msgid "Appears on article page."
+msgstr ""
+
+#: article-directory.php:695
+msgid "Reset Defaults"
+msgstr ""
+
+#: article-directory.php:699
+msgid "Copyright"
+msgstr ""
+
+#: article-directory.php:703
+msgid "http://dimox.net"
+msgstr ""
+
+#: article-directory.php:703
+msgid "http://articlesss.com/article-directory-wordpress-plugin/"
+msgstr ""
+
+#: article-directory.php:703
+msgid "version"
+msgstr ""
+
+#: article-directory.php:756
+msgid "WordPress &rsaquo; Error"
+msgstr ""
+
+#: article-directory.php:760
+msgid "Error"
+msgstr ""
+
+#: article-directory.php:761
+msgid "Unfortunately, you can not get into the author panel, because the site admin does not <a href=\"http://articlesss.com/article-directory-wordpress-plugin/#installation\" target=\"_blank\">set it up</a>."
+msgstr ""
+
+#: article-directory.php:762
+#: article-directory.php:869
+#: article-directory.php:884
+#: author-panel.php:28
+msgid "Log out"
+msgstr ""
+
+#: article-directory.php:799
+#: article-directory.php:800
+msgid "Source"
+msgstr ""
+
+#: article-directory.php:805
+msgid "Article Source"
+msgstr ""
+
+#: article-directory.php:807
+msgid "HTML Version"
+msgstr ""
+
+#: article-directory.php:809
+msgid "Text Version"
+msgstr ""
+
+#: article-directory.php:811
+msgid "Article Url"
+msgstr ""
+
+#: article-directory.php:839
+msgid "Authorization"
+msgstr ""
+
+#: article-directory.php:842
+#: author-panel.php:112
+msgid "Username"
+msgstr ""
+
+#: article-directory.php:846
+msgid "Password"
+msgstr ""
+
+#: article-directory.php:850
+msgid "Remember Me"
+msgstr ""
+
+#: article-directory.php:851
+msgid "Log In"
+msgstr ""
+
+#: article-directory.php:854
+msgid "Lost your password?"
+msgstr ""
+
+#: article-directory.php:859
+msgid "Management"
+msgstr ""
+
+#: article-directory.php:862
+#: article-directory.php:878
+#: article-directory.php:881
+#: author-panel.php:26
+msgid "Submit article"
+msgstr ""
+
+#: article-directory.php:863
+msgid "Posts"
+msgstr ""
+
+#: article-directory.php:864
+msgid "Comments"
+msgstr ""
+
+#: article-directory.php:865
+msgid "Plugins"
+msgstr ""
+
+#: article-directory.php:866
+msgid "Users"
+msgstr ""
+
+#: article-directory.php:867
+msgid "Options"
+msgstr ""
+
+#: article-directory.php:868
+#: article-directory.php:882
+msgid "Profile"
+msgstr ""
+
+#: article-directory.php:879
+#: author-panel.php:27
+msgid "My profile"
+msgstr ""
+
+#: author-panel.php:49
+msgid "<strong>ERROR</strong>: Please enter an e-mail address."
+msgstr ""
+
+#: author-panel.php:51
+msgid "<strong>ERROR</strong>: The e-mail address isn&#8217;t correct."
+msgstr ""
+
+#: author-panel.php:72
+msgid "<strong>ERROR</strong>: Please enter the same password in the two password fields."
+msgstr ""
+
+#: author-panel.php:97
+msgid "User updated."
+msgstr ""
+
+#: author-panel.php:107
+msgid "Registration date"
+msgstr ""
+
+#: author-panel.php:113
+msgid "Usernames cannot be changed."
+msgstr ""
+
+#: author-panel.php:117
+msgid "Display name publicly as"
+msgstr ""
+
+#: author-panel.php:122
+msgid "E-mail"
+msgstr ""
+
+#: author-panel.php:122
+msgid "(required)"
+msgstr ""
+
+#: author-panel.php:127
+msgid "Website"
+msgstr ""
+
+#: author-panel.php:132
+msgid "About Yourself"
+msgstr ""
+
+#: author-panel.php:137
+msgid "New Password"
+msgstr ""
+
+#: author-panel.php:138
+msgid "If you would like to change the password type a new one. Otherwise leave this blank."
+msgstr ""
+
+#: author-panel.php:139
+msgid "Type your new password again."
+msgstr ""
+
+#: author-panel.php:140
+#: author-panel.php:148
+msgid "Strength indicator"
+msgstr ""
+
+#: author-panel.php:141
+msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ &amp; )."
+msgstr ""
+
+#: author-panel.php:149
+msgid "Very weak"
+msgstr ""
+
+#: author-panel.php:150
+msgid "Weak"
+msgstr ""
+
+#: author-panel.php:152
+msgid "Strong"
+msgstr ""
+
+#: author-panel.php:153
+msgid "Mismatch"
+msgstr ""
+
+#: author-panel.php:196
+#: author-panel.php:199
+#: author-panel.php:202
+#: author-panel.php:205
+#: author-panel.php:209
+msgid "ERROR"
+msgstr ""
+
+#: author-panel.php:196
+msgid "Specify the article title."
+msgstr ""
+
+#: author-panel.php:199
+msgid "Specify the article text."
+msgstr ""
+
+#: author-panel.php:202
+msgid "Select a category."
+msgstr ""
+
+#: author-panel.php:205
+msgid "The minimum number of characters allowed in the article"
+msgstr ""
+
+#: author-panel.php:209
+msgid "The maximum number of links allowed in the article"
+msgstr ""
+
+#: author-panel.php:242
+msgid "Thank you! Your article has been published."
+msgstr ""
+
+#: author-panel.php:244
+msgid "Thank you! Your article has been added and is awaiting review by the administrator."
+msgstr ""
+
+#: author-panel.php:257
+msgid "Article title"
+msgstr ""
+
+#: author-panel.php:260
+msgid "Article text"
+msgstr ""
+
+#: author-panel.php:285
+msgid "Category"
+msgstr ""
+
+#: author-panel.php:288
+msgid "Categories"
+msgstr ""
+
+#: author-panel.php:289
+#: author-panel.php:310
+msgid "Press Ctrl + click to select more than one"
+msgstr ""
+
+#: author-panel.php:309
+msgid "Tags"
+msgstr ""
+
+#: author-panel.php:323
+msgid "New tags"
+msgstr ""
+
+#: author-panel.php:330
+msgid "Submit"
+msgstr ""
+
